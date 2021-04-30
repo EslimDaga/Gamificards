@@ -74,7 +74,7 @@ template.
     **Alert
     --------------------------
     **projects
-    --------------------------  
+    --------------------------
 */
 /*   =======
     helpers
@@ -548,8 +548,8 @@ img {
   position: relative;
 }
 .loading_overlay .loader_logo .logo {
-  width: 40px;
-  height: 40px;
+  width: 156px;
+  height: auto;
   -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
   -moz-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
   -o-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
@@ -3107,7 +3107,7 @@ img {
      --------------------------
      **header-black
      --------------------------
-     
+
 */
 /*-----------------------------
   Style header Default
@@ -3165,7 +3165,7 @@ header .navbar .navbar-brand {
 header .navbar .navbar-brand .logo {
   vertical-align: bottom;
   margin-right: 0.5rem;
-  width: 27px;
+  width: 160px;
 }
 header .navbar .navbar-collapse {
   margin-top: 0.4rem;
@@ -3587,7 +3587,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 
 /*-----------------------------
-  header-black 
+  header-black
 -----------------------------*/
 .header-black .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #ffffff;
@@ -4053,11 +4053,11 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   margin-top: 5.625rem;
   padding-top: 0 !important;
   padding-bottom: 16rem;
-  width: 93%;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 @media (max-width: 767px) {
   .banner_demo7 {
@@ -4112,6 +4112,78 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   color: #ffffff;
 }
 .banner_demo7 .ill_05 {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+/*-----------------------------
+  banner_demo7_right
+-----------------------------*/
+.banner_demo7_right {
+  background: #ffe7aa !important;
+  border-radius: 12px !important;
+  margin-top: 5.625rem;
+  padding-top: 0 !important;
+  padding-bottom: 16rem;
+  width: 96%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media (max-width: 767px) {
+  .banner_demo7_right {
+    padding-bottom: 2rem;
+  }
+}
+.banner_demo7_right .btn-video {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #0b2238;
+  padding: 0;
+  -webkit-transition: 0.3s !important;
+  -moz-transition: 0.3s !important;
+  -o-transition: 0.3s !important;
+  -ms-transition: 0.3s !important;
+  transition: 0.3s !important;
+}
+.banner_demo7_right .btn-video::after {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  display: block;
+  z-index: -1;
+  background: rgba(11, 34, 56, 0.1);
+  border-radius: 50%;
+}
+.banner_demo7_right .btn-video::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: rgba(11, 34, 56, 0.1);
+  -webkit-animation: pulseRipple 2.5s ease-in-out infinite !important;
+  -moz-animation: pulseRipple 2.5s ease-in-out infinite !important;
+  -o-animation: pulseRipple 2.5s ease-in-out infinite !important;
+  -ms-animation: pulseRipple 2.5s ease-in-out infinite !important;
+  animation: pulseRipple 2.5s ease-in-out infinite !important;
+}
+.banner_demo7_right .btn-video:focus {
+  background-color: #0b2238;
+}
+.banner_demo7_right .btn-video .tio {
+  font-size: 24px;
+  color: #ffffff;
+}
+.banner_demo7_right .ill_05 {
   width: 100%;
   margin: 2rem 0;
 }
@@ -7903,7 +7975,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
     --------------------------
     ** software_web
     --------------------------
-    
+
 
 */
 /*-----------------------------
@@ -9879,8 +9951,8 @@ software_web
     --------------------------
     **creative_box_contact
     --------------------------
-    
-    
+
+
 
 */
 /*-----------------------------
@@ -10640,8 +10712,8 @@ software_web
     --------------------------
     **reviews_app_random
     --------------------------
-    
-    
+
+
 
 */
 /*-----------------------------
@@ -11350,7 +11422,7 @@ software_web
     **signup_full
     --------------------------
 
-    
+
 
 */
 /*-----------------------------
@@ -11664,7 +11736,7 @@ software_web
     --------------------------
     **about_developer
     --------------------------
-    
+
 */
 /*-----------------------------
   about_section
@@ -12070,7 +12142,7 @@ software_web
     --------------------------
     ** section__showcase
     --------------------------
-    
+
 
 */
 /*-----------------------------
@@ -13411,7 +13483,7 @@ software_web
     --------------------------
      ** news__workspace
     --------------------------
-    **blog_slider 
+    **blog_slider
     **grid_blog_avatar
     --------------------------
     **single-type_default
@@ -13426,7 +13498,7 @@ software_web
     --------------------------
     **sec_comments
     --------------------------
-    
+
 
 */
 /*-----------------------------
@@ -14822,7 +14894,7 @@ software_web
     --------------------------
     **counter_about
     --------------------------
-    
+
 
 */
 /*-----------------------------
@@ -15137,11 +15209,11 @@ software_web
   color: #6c7a87;
 }
 
-/*----------------------------- 
+/*-----------------------------
   widgets :
-  -- SSmedia_follow-w 
-  -- quotatio-w 
-  -- categories_list-w 
+  -- SSmedia_follow-w
+  -- quotatio-w
+  -- categories_list-w
   -- banner-w
 -----------------------------*/
 .widgets .SSmedia_follow-w {
@@ -16330,7 +16402,7 @@ software_web
 }
 /**
  * ----------------------------------------
- * animation heartbeat 
+ * animation heartbeat
  * ----------------------------------------
  */
 @-webkit-keyframes heartbeat {
@@ -18488,7 +18560,7 @@ html:not(.no-js) [data-aos="fade-up"] {
 }
 
 /*-----------------------------
-  custom-checkbox 
+  custom-checkbox
 -----------------------------*/
 .custom-checkbox .custom-control-input:focus {
   outline: 0;
@@ -19490,7 +19562,7 @@ html:not(.no-js) [data-aos="fade-up"] {
     --------------------------
     **sh_footer_email
     --------------------------
-    
+
 
 */
 /*-----------------------------
