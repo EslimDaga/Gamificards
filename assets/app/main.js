@@ -1,5 +1,6 @@
 const example2Left = document.getElementById("example2Left");
 const example2Right = document.getElementById("example2Right");
+const example2Right_two = document.getElementById("example2Right-two");
 
 new Sortable(example2Left, {
   group: 'shared', // set both lists to same group
@@ -7,6 +8,11 @@ new Sortable(example2Left, {
 });
 
 new Sortable(example2Right, {
+  group: 'shared',
+  animation: 150
+});
+
+new Sortable(example2Right_two, {
   group: 'shared',
   animation: 150
 });
