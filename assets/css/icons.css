@@ -1947,9 +1947,9 @@
 .gradient:before {
   content: "\eb7c";
 }
-.grid:before {
+/* .grid:before {
   content: "\eb7d";
-}
+} */
 .image_rotate_left:before {
   content: "\eb7e";
 }
