@@ -13,9 +13,17 @@ function iniciarSesion() {
   if (bAcceso == true) {
     ingresar();
   } else if (sCorreo === "" && sContrasena === "") {
-    alert("Porfavor Ingresar sus credenciales")
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Porfavor ingresar credenciales!',
+    })
   } else {
-    alert("Usuario o Clave est�n mal escritas")
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Usuario o contraseña mal escritas',
+    })
   }
 }
 
