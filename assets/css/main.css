@@ -11557,7 +11557,7 @@ software_web
   display: grid;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("../img/inner/01.jpg");
+  background-image: url("../img/fondo.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -11592,7 +11592,8 @@ software_web
 .signup_full .form_signup_one .item_group .google_sign .btn_social {
   width: 100%;
   background-color: #f9f9f9;
-  height: 60px;
+  /* height: 60px; */
+  padding: 20px;
   font-size: 16px;
   -webkit-transition: 0.3s !important;
   -moz-transition: 0.3s !important;
@@ -11632,7 +11633,7 @@ software_web
   display: inline-block;
 }
 .signup_full .item_brand a img {
-  width: 27px;
+  width: 200px;
 }
 .signup_full .item_footer {
   padding-bottom: 1.874rem;
